@@ -1,0 +1,48 @@
+{
+  "Header": {
+    "title": "Welcome to \nJOBJET"
+      },
+  "About": {
+
+  },
+  "SaveJob": [
+    
+  ],
+  "JobPortal": [
+ 
+  ],
+  "Testimonials": [
+
+  ],
+  "Team": [
+    
+  ],
+  "Contact": {
+    "address": "dublin",
+    "phone": "+1 2345",
+    "email": "sarah@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "name": "Step 1: Profile SetUp",
+      "icon": "fa fa-user", 
+      "text":"Users create profiles with: \n~job sectors \n~job preferences \n~location \nto personalize job matches.\n\n Click the icon above to bring you to our log in page.",
+      "link": "/login"
+    },
+    {
+      "name": "Step 2: Job Swiping",
+      "icon": "fa fa-briefcase",
+      "text": "Swipe right to save jobs and swipe left to skip.\n\n Recommendations are tailored to user preferences.\n\nClick the icon above to bring you to our job portal page.",
+      "link": "/jobportal"
+    },
+    {
+      "name": "Step 3: Saved Jobs",
+      "icon": "fa fa-save",
+      "text": "Users can view and apply to saved jobs later from a dedicated section.\n\nClick the icon above to bring you to our saved jobs page.",
+      "link": "/savejob"
+    }
+]
+}

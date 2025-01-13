@@ -1,0 +1,474 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #jobportal,
+  #accountdets,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    padding: 40px 0;
+    margin-top: 40px;
+    width: 110%;
+  }
+}.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group select {
+  width: 100%; /* Full width to prevent text wrapping */
+  padding: 10px; /* Adequate padding for readability */
+  font-size: 1rem; /* Same font size as input fields */
+  font-family: inherit; /* Inherit the font from the input fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Ensure consistency across all form elements */
+.form-group input,
+.form-group select {
+  font-family: Arial, sans-serif; /* Use a common font family for all inputs */
+  font-size: 1rem; /* Ensure consistent font size */
+  padding: 10px; /* Ensure padding is the same */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Box-sizing to include padding in width */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+#header h1 {
+  color: black !important; /* Force "Welcome to" to be black */
+}
+
+#header h1 span {
+  color: rgb(255, 38, 146) !important; /* Force "JOBJET" to be pink */
+}
+#header p {
+  color: black !important; /* Force paragraph text to be black */
+}
+#header .intro-text {
+  position: relative;
+  margin-top: -380px; /* Moves the text slightly down */
+  margin-left: 380px; /* Moves the text slightly to the left */
+}
+/* Header Styling */
+#header {
+  display: fixed;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh; /* Full viewport height */
+  padding: 0 .25%; /* Add spacing for both sides */
+}
+
+.circle-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 120px; 
+}
+
+.circle-image {
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+
+.intro {
+  flex: .5; /* Take one part of the space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align text to the left */
+}
+
+.intro-text {
+  margin: 0;
+  padding-left: 50px; /* Adjust left padding */
+}
+
+.intro-text h1 {
+  font-size: 7.5rem; /* Larger heading */
+  margin: 0;
+}
+
+.intro-text p {
+  font-size: 2.5rem; /* Adjust paragraph size */
+  margin: 10px 0 20px;
+}
+
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+
+/* Center Job Card with Navigation Buttons */
+.navigation-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Button Styles */
+.swipe-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.swipe-button:hover {
+  transform: scale(1.1);
+}
+
+.prev-button {
+  color: black;
+  margin-right: 20px;
+}
+
+.next-button {
+  color: red;
+  margin-left: 20px;
+}
+
+#jobportal {
+  padding: 40px 0;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.job-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.job-card {
+  width: 450px;
+  height: 300px;
+  padding: 40px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.job-card-header h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.job-card-body p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -85px;
+  position: relative;
+  width: 100%;
+}
+
+.action-icon {
+  width: 620px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  object-fit: contain;
+  position: absolute; /* Allow positioning */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Center correction */
+}
+
+.action-icon.reject {
+  left: -60px; /* Adjust for spacing on the left */
+}
+
+.action-icon.choose {
+  right: -60px; /* Adjust for spacing on the right */
+}
+
+.action-icon:hover {
+  transform: scale(1.2) translateY(-50%); /* Add hover scaling */
+}
+
+
+.center-buttons {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;    /* Center vertically if necessary */
+  gap: 1rem;              /* Add spacing between buttons */
+}
+
+
+.saved-job-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.saved-job-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.saved-job-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.saved-job-card .delete-icon {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  font-size: 2rem; /* Icon size */
+  color: #007bff; /* Make the icon red */
+  cursor: pointer; /* Add pointer cursor for interactivity */
+}
+.saved-job-card .delete-icon:hover {
+  color: #0056b3; /* Change color on hover for better user feedback */
+  transform: scale(1.5);
+}
+.no-jobs-message {
+  font-size: 4rem;
+  color: #666;
+  text-align: center; /* Ensure the text is centered */
+  width: 100%;
+}
+
+.no-jobs-message p {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.btn-custom-job {
+  margin-top: 5px;  /* Adds some space above the button */
+}
+/* Apply styles to the overall account details section */
+/* Center the entire form container */
+/* Ensure the entire section is centered */
+/* Center the entire section vertically and horizontally */
+#account-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh; /* Full viewport height */
+  padding: 2rem 0;
+  /* background-color: #f9f9f9; Optional background color */
+  text-align: center; /* Center all text */
+}
+
+/* Center the container and adjust size */
+#account-details .container {
+  max-width: 700px; /* Increase the container width */
+  width: 100%;
+  padding: 2rem;
+}
+
+/* Center and style the heading */
+#account-details .section-title {
+  margin-bottom: 2rem; /* Add spacing below the heading */
+}
+
+/* Center the heading container horizontally */
+#account-details .section-title {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (optional for multi-line headings) */
+  text-align: center; /* Ensure text alignment within the container */
+  margin-bottom: 2rem;
+}
+
+
+/* Form styling */
+#account-details form {
+  width: 100%;
+  padding: 30px;
+  border-radius: 12px; /* Increase border radius */
+  background: #fff;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Add stronger shadow */
+}
+
+/* Adjust spacing between form fields */
+#account-details .form-group {
+  margin-bottom: 1.5rem; /* Increase spacing between fields */
+}
+
+/* Button styling */
+#account-details .btn-primary {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.5rem; /* Make the button text larger */
+  font-weight: bold;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+#account-details .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Style the action buttons (Alert and Log Out) */
+#account-details .account-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Increase spacing between buttons */
+  margin-top: 2rem; /* Add space above the buttons */
+}
+
+#account-details .account-buttons .btn {
+  padding: 12px 25px;
+  font-size: 1.2rem; /* Make button text slightly larger */
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#account-details .account-buttons .btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+#account-details .account-buttons .btn-info:hover {
+  background-color: #117a8b;
+}
+
+#account-details .account-buttons .btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+#account-details .account-buttons .btn-danger:hover {
+  background-color: #a71d2a;
+}
+
+
+
+
+.testimonial {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
