@@ -18,7 +18,7 @@ export const JobPortal = (props) => {
       if (action === "choose" && props.data[currentIndex]) {
         // Save the job using the onSaveJob prop passed from App.js
         props.onSaveJob(props.data[currentIndex]);
-        await fetch('http://localhost:8080/groupProject/users/'+Cookies.get('username')+'/'+props.data[currentIndex].id, {
+        await fetch('http://localhost:8080/jobjet/users/'+Cookies.get('username')+'/'+props.data[currentIndex].id, {
           method: 'PUT',
           headers: {
             'Authorization': "Bearer "+Cookies.get('token'),
@@ -26,7 +26,7 @@ export const JobPortal = (props) => {
           credentials: 'include',
         })
       } else if (action === "reject" && props.data[currentIndex]) {
-        await fetch('http://localhost:8080/groupProject/users/reject/'+Cookies.get('username')+'/'+props.data[currentIndex].id, {
+        await fetch('http://localhost:8080/jobjet/users/reject/'+Cookies.get('username')+'/'+props.data[currentIndex].id, {
           method: 'PUT',
           headers: {
             'Authorization': "Bearer "+Cookies.get('token'),

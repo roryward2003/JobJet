@@ -28,7 +28,7 @@ export const AccDets = (props) => {
     e.preventDefault();
     setLoading(true);
     try {
-      await fetch('http://localhost:8080/groupProject/users/params', {
+      await fetch('http://localhost:8080/jobjet/users/params', {
         method: 'POST',
         headers: {
           'Authorization': 'Bearer '+Cookies.get('token'),
@@ -47,7 +47,7 @@ export const AccDets = (props) => {
 
   const resetRejectedJobs = async () => {
     if(Cookies.get('token')!==null && Cookies.get('username')!==null) {
-      await fetch('http://localhost:8080/groupProject/users/reject/'+Cookies.get('username'), {
+      await fetch('http://localhost:8080/jobjet/users/reject/'+Cookies.get('username'), {
         method: 'DELETE',
         headers: {
         'Authorization': "Bearer "+Cookies.get('token'),

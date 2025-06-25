@@ -25,10 +25,10 @@ RUN ./mvnw package -DskipTests
 FROM openjdk:21-jdk
 
 # Copy the jar file from the build stage
-COPY --from=build /app/target/groupProject-0.0.1-SNAPSHOT.jar /app/groupProject-0.0.1-SNAPSHOT.jar
+COPY --from=build /app/target/jobjet-1.0.0.jar /app/jobjet-1.0.0.jar
 
 # Expose port 8080
 EXPOSE 8080
 
 # Command to run the Spring Boot application
-ENTRYPOINT ["java", "-jar", "/app/groupProject-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "/app/jobjet-1.0.0.jar"]
