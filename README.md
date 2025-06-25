@@ -24,7 +24,9 @@ to get an API key. To add your API key as an environment variable follow the bel
 
 3. Go to http://localhost in your browser
 
-4. For future executions you can leave out the --build flag in the docker-compose up command
+4. You may need to go to https://localhost:8443 and trust the self-created https key
+
+5. For future executions you can leave out the --build flag in the docker-compose up command
 
 ## Alternative Usage
 

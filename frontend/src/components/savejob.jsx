@@ -7,7 +7,7 @@ export const SaveJob = (props) => {
   
   const handleDelete = async (jobId) => {
     // props.onDeleteJob(jobId); // Call the onDeleteJob function passed as a prop
-    await fetch('http://localhost:8080/jobjet/users/'+Cookies.get('username')+'/'+jobId, {
+    await fetch('https://localhost:8443/jobjet/users/'+Cookies.get('username')+'/'+jobId, {
       method: 'DELETE',
       headers: {
         'Authorization': 'Bearer '+Cookies.get('token')

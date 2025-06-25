@@ -9,9 +9,7 @@ services:
     build:
       context: ./backend
     ports:
-      - "8080:8080"
-    environment:
-      - SPRING_PROFILES_ACTIVE=prod
+      - "8443:8443"
     depends_on:
       - frontend
     env_file:

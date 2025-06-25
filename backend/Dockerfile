@@ -27,8 +27,8 @@ FROM openjdk:21-jdk
 # Copy the jar file from the build stage
 COPY --from=build /app/target/jobjet-1.0.0.jar /app/jobjet-1.0.0.jar
 
-# Expose port 8080
-EXPOSE 8080
+# Expose port 8443
+EXPOSE 8443
 
 # Command to run the Spring Boot application
 ENTRYPOINT ["java", "-jar", "/app/jobjet-1.0.0.jar"]

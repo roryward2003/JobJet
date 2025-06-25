@@ -29,7 +29,7 @@ export const SignUp = () => {
       setLoading(false)
       throw error
     }
-    fetch('http://localhost:8080/auth/signup', {
+    fetch('https://localhost:8443/auth/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
